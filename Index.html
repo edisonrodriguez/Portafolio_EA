@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Edison Rodriguez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Edison Rodriguez</h1>
+        <div class="photo-container">
+            <img src="https://media.istockphoto.com/id/1476170969/es/foto/retrato-de-un-joven-listo-para-el-trabajo-concepto-de-negocio.jpg?s=1024x1024&w=is&k=20&c=Dl0Oe4SBFY-OzCueS1PqgMjCX8ajbQpR10UdSqRFTlE=" alt="Foto de Edison Rodriguez">
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Soy desarrollador web especializado en la creación de aplicaciones dinámicas y responsivas. Con experiencia en tecnologías como JavaScript, React, y SharePoint, me apasiona construir soluciones innovadoras que mejoren la experiencia del usuario y optimicen procesos empresariales. Mi objetivo es combinar diseño intuitivo con funcionalidad robusta para entregar proyectos de alta calidad. Me mantengo en constante aprendizaje para adaptarme a las nuevas tendencias y tecnologías del desarrollo web</p>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="skills-icons">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-microsoft"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <div class="hobbies-icons">
+                <div class="hobby">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="hobby">
+                    <i class="fas fa-chess"></i>
+                </div>
+                <div class="hobby">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="hobby">
+                    <i class="fas fa-futbol"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Formación Académica</h2>
+            <div class="education-images">
+                <img src="assets/Alura.jpg" alt="Alura">
+                <img src="assets/Oracle-Next-Education.png" alt="Oracle Next Education">
+            </div>
+            <div class="carousel">
+                <button class="carousel-button prev">&#10094;</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        <li class="carousel-slide"><a href="#"><i class="fab fa-js-square"></i></a></li>
+                        <li class="carousel-slide"><a href="#"><i class="fab fa-html5"></i></a></li>
+                        <li class="carousel-slide"><a href="#"><i class="fab fa-css3-alt"></i></a></li>
+                        <li class="carousel-slide"><a href="#"><i class="fab fa-git-alt"></i></a></li>
+                        <li class="carousel-slide"><a href="#"><i class="fab fa-react"></i></a></li>
+                        <li class="carousel-slide"><a href="#"><i class="fas fa-database"></i></a></li>
+                        <li class="carousel-slide"><a href="#"><i class="fas fa-network-wired"></i></a></li>
+                        <li class="carousel-slide"><a href="#"><i class="fas fa-code"></i></a></li>
+                        <li class="carousel-slide"><a href="#"><i class="fas fa-cogs"></i></a></li>
+                        <li class="carousel-slide"><a href="#"><i class="fas fa-palette"></i></a></li>
+                    </ul>
+                </div>
+                <button class="carousel-button next">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experiencia Profesional</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Encriptador</h3>
+                    <p>Aplicación web interactiva diseñada para encriptar y desencriptar mensajes de texto.</p>
+                    <a href="https://github.com/edisonrodriguez/pyencriptador" target="_blank">Repositorio</a>
+                    <a href="https://github.com/edisonrodriguez/pyencriptador" target="_blank">Ver Proyecto</a>
+                </div>
+                <div class="project">
+                    <h3>alura-geek</h3>
+                    <p>Aplicación de ecommerce que permite a los usuarios gestionar y visualizar productos. Con esta aplicación, puedes agregar, listar y eliminar productos.</p>
+                    <a href="https://github.com/edisonrodriguez/alura-geek" target="_blank">Repositorio</a>
+                    <a href="https://github.com/edisonrodriguez/alura-geek" target="_blank">Ver Proyecto</a>
+                </div>
+                <div class="project">
+                    <h3>AluraFlix</h3>
+                    <p>AluraFlix es una plataforma para ver y compartir videos sobre temas interesantes.</p>
+                    <a href="https://github.com/edisonrodriguez/AluraFlix" target="_blank">Repositorio</a>
+                    <a href="https://github.com/edisonrodriguez/AluraFlix" target="_blank">Ver Proyecto</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Edison Rodriguez. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
